@@ -1,0 +1,76 @@
+site_name: KFG/7GIS1 - Geografické informační systémy 1
+site_author: Oto Kaláb
+site_url: https://kalab-oto.github.io/7GIS1
+repo_url: https://github.com/kalab-oto/7GIS1
+site_description: "7GIS1 - Geografické informační systémy 1"
+copyright: "Oto Kaláb 2024"
+theme:
+  name: material
+  
+  palette:
+    - scheme: default
+      primary: teal
+      primary: teal
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  features:
+      - content.code.copy
+      - navigation.sections
+
+extra:
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:oto.kalab@osu.cz
+      name: e-mail
+    - icon: fontawesome/solid/globe
+      link: https://prf.osu.cz/kfg/oto-kalab/25831/
+      name: website
+    - icon: fontawesome/brands/researchgate
+      link: https://www.researchgate.net/profile/Oto-Kalab
+      name: ResearchGate
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.com/citations?user=ZsfMS6k0ceEC&hl=cs
+      name: Google Scholar
+    - icon: fontawesome/brands/orcid
+      link: https://orcid.org/0000-0003-3485-9377
+      name: ORCID
+    - icon: fontawesome/brands/mastodon
+      link: https://ecoevo.social/@OtoKalab
+      name: Mastodon
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+nav:
+  - Domů: index.md
+  - Cvičení:
+    - Úvod do QGIS: uvod.md
+    - Symbologie a popisky : symbologie.md
+    - Webové služby a zdroje dat: web_data.md
+    - Mapové výstupy: mapy.md
+    - Práce s tabulkovými daty: tabulky.md
+    - Tvorba nové vrstvy a editace: editace.md
+    - Vzorce: vzorce.md
+    - Prostorové analýzy: analyza.md
+    - Atributové a prostorové dotazování: dotazovani.md
+    - Evropská a globální data: global.md
+    - Rastrová data: rastry.md
+    - Doplňující funkce: other.md
+    - Přehled dalších geoinformačních technologií: git.md
+  - Zdroje:
+    - Zdroje: zdroje.md
+    - Data: data.md
+
+
