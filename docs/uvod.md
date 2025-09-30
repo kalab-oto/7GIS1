@@ -27,8 +27,8 @@
 - vyberte jakoukoliv obec
 - zjistěte, v jakém ORP leží
 - vyzkoušejte
-  - různé způsoby dosažení tohoto cíle
   - konkrétní obce: Jistebník, Kyjovice, Tvrzice
+  - různé způsoby dosažení tohoto cíle, např. bez využití identifikace
 
 ## Zdroje
 
