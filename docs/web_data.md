@@ -46,7 +46,7 @@ https://ags.cuzk.gov.cz/arcgis1/services/ORTOFOTO/MapServer/WMSServer?
 
 
 - AOPK ČR
-  - WFS — https://portal23.nature.cz/publik_syst/ctihtmlpage.php?what=6103&X=X nebo jednotlivě na https://data.nature.cz
+  - WFS — [https://portal23.nature.cz](https://portal23.nature.cz/publik_syst/ctihtmlpage.php?what=6103&X=X) nebo jednotlivě na [https://data.nature.cz](https://data.nature.cz)
 
 - ČGS
   - [Webové služby](https://cgs.gov.cz/mapy-a-data/webove-sluzby) - WMS nebo ArcGIS Server
@@ -55,6 +55,14 @@ https://ags.cuzk.gov.cz/arcgis1/services/ORTOFOTO/MapServer/WMSServer?
 - Město Ostrava
     - [WMS](https://mapy.ostrava.cz/mapove-sluzby/wms/)
     - [Otevřená data](https://mapy.ostrava.cz/data/otevrena-data/opendata-info/)
+
+## Úkol k procvičení
+- přidejte do projektu 
+  - WMS DMR 5G z ČÚZK
+  - WFS vrstvu Velkoplošných zvláště chráněných území z datového portálu AOPK ČR
+    - nastavte symbologii podle typu chráněného území
+  - WMS Velkoplošných zvláště chráněných území z datového portálu AOPK ČR
+    - vyzkoušejte identifikaci prvků na WMS vrstvách pomocí nástroje *Identify Features* (*Identifikovat Prvky*)
 
 ## Zdroje
 
