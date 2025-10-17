@@ -58,5 +58,5 @@ https://ags.cuzk.gov.cz/arcgis1/services/ORTOFOTO/MapServer/WMSServer?
 
 ## Zdroje
 
-- https://gismentors.github.io/qgis-zacatecnik/webove_sluzby/index.html
-- https://docs.qgis.org/3.44/en/docs/user_manual/managing_data_source/opening_data.html#connecting-to-web-services
+- [https://gismentors.github.io/qgis-zacatecnik/webove_sluzby/index.html](https://gismentors.github.io/qgis-zacatecnik/webove_sluzby/index.html)
+- [https://docs.qgis.org/3.44/en/docs/user_manual/managing_data_source/opening_data.html#connecting-to-web-services](https://docs.qgis.org/3.44/en/docs/user_manual/managing_data_source/opening_data.html#connecting-to-web-services)
