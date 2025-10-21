@@ -1,6 +1,6 @@
 # Mapové výstupy
 ## Data:
-- LPIS [https://data.nature.cz/](https://data.nature.cz/) Natura 2000 **Evropsky významné lokality (EVL)**
+- ČÚZK Data50 [https://data.nature.cz/](https://data.nature.cz/) Natura 2000 **Evropsky významné lokality (EVL)**
 
 ## Příprava dat pro mapový výstup
 - načteme potřebná data, a nachystáme  vzhled vrstve - symbologie, popisky atd. podle potřeby
