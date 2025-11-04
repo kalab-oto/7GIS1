@@ -29,5 +29,5 @@
   - nastavte vhodnou symbologii, popř. popisky, mapu vytvořte se všemi náležitostmi - název mapy, legenda, měřítko, směrovka,...
 
 #### zdroje:
-- [GISMentors - QGIS začátečník - Mapový výstup](gismentors.github.io/qgis-zacatecnik/mapovy_vystup/index.html)
+- [GISMentors - QGIS začátečník - Mapový výstup](https://gismentors.github.io/qgis-zacatecnik/mapovy_vystup/index.html)
 - [QGIS Documentation - Laying out the maps](https://docs.qgis.org/3.40/en/docs/user_manual/print_composer/index.html#laying-out-the-maps)
