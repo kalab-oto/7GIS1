@@ -12,7 +12,7 @@
 - primitivní textový formát pro tabulková data, kde jednotlivé hodnoty jsou odděleny čárkou, ale častý je i jiný oddělovač, např. středník nebo tabulátor
 - neobsahuje žádné formátování, pouze čistá data v textovém souboru, je tedy jednodušše strojově čitelný
 - tabulkové procesory (Excel, Calc) slouží pro zpracování a vizualizaci dat, kdy používají vlastní formáty (`.xlsx`, `.ods`,...), tyto programy zpravidla umožňují export i import z `.csv` formátu, který je vhodnější pro výměnu dat
-- při načítání je nutrné správně nastavit oddělovač, kódování znaků (UTF-8, Windows-1250,...) a případně další parametry (desetinná čárka/tečka, hlavička tabulky,...), to platí pro všechny programy
+- při načítání je nutné správně nastavit oddělovač, kódování znaků (`UTF-8`, `Windows-1250`,...) a případně další parametry (desetinná čárka/tečka, hlavička tabulky,...), to platí pro všechny programy
 
 ## Tabulková data s geometrií (XY)
 - vysvětlení zdroje dat NDOP a iNaturalist
