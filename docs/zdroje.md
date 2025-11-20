@@ -2,7 +2,6 @@
 
 Na této stránce najdete relevantní zdroje k samostudiu.
 
-
 - [GISMentors - QGIS začátečník - Prostorové analýzy](https://gismentors.github.io/qgis-zacatecnik/vektorova_data/prostorove_analyzy.html)
 
 - [GISMentors - QGIS začátečník - Atributové a prostorové dotazování](https://gismentors.github.io/qgis-zacatecnik/vektorova_data/dotazovani.html)

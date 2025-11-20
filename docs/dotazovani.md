@@ -1,1 +1,0 @@
-# Globální a Evropská data

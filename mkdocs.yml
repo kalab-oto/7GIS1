@@ -64,11 +64,10 @@ nav:
     - Tvorba nové vrstvy a editace: editace.md
     - Vzorce: vzorce.md
     - Prostorové analýzy: analyza.md
-    - Atributové a prostorové dotazování: dotazovani.md
     - Evropská a globální data: global.md
     - Rastrová data: rastry.md
     - Doplňující funkce: other.md
-    - Přehled dalších geoinformačních technologií: git.md
+    # - Přehled dalších geoinformačních technologií: git.md
   - Zdroje:
     - Zdroje: zdroje.md
     - Data: data.md

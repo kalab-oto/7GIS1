@@ -1,8 +1,8 @@
 # Vzorce - *expressions*
 
+## data
 - [MZCHÚ](https://data.nature.cz/ds/1)
 
-# obsah hodiny:
 
 ## úvod do vzorců - expressions
 - editace atributů v tabulce pomocí kalkulátoru polí - *Field calculator*
@@ -34,9 +34,6 @@
 'rozloha: ' || rozloha_ha || ' ha'
 ```
 
-### třetí úroveň
-asdasdyxcyxc
-
 
 ## výběr pomocí vzorců - atributové dotazování
 
@@ -57,7 +54,7 @@ asdasdyxcyxc
             $area < 1000000
             ```
 
-# Zdroje:
+## Zdroje:
 - [GISMentors - QGIS začátečník - Tvorba nových vrstev a jejich editace](https://gismentors.github.io/qgis-zacatecnik/vektorova_data/editace.html#kalkulator-poli)
 
 - [GISMentors - QGIS začátečník - Atributové a prostorové dotazování](https://gismentors.github.io/qgis-zacatecnik/vektorova_data/dotazovani.html)
