@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#5-prace-s-tabulkovymi-daty-souradnice-bodu-propojeni-dat" class="md-skip">
+        <a href="#tabulkova-data" class="md-skip">
           Skip to content
         </a>
       
@@ -458,26 +458,38 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#obsah-hodiny" class="md-nav__link">
+  <a href="#format-csv-comma-separated-values" class="md-nav__link">
     <span class="md-ellipsis">
-      obsah hodiny:
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="obsah hodiny:">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#zasuvne-moduly-plugins" class="md-nav__link">
-    <span class="md-ellipsis">
-      zásuvné moduly - Plugins
+      Formát .csv (Comma Separated Values)
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#tabulkova-data-s-geometrii-xy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabulková data s geometrií (XY)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pripojeni-tabulky-k-existujicim-prostorovym-datum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Připojení tabulky k existujícím prostorovým datům
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ukol-k-procviceni" class="md-nav__link">
+    <span class="md-ellipsis">
+      Úkol k procvičení
+    </span>
+  </a>
   
 </li>
       
@@ -569,27 +581,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../dotazovani/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Atributové a prostorové dotazování
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../global/" class="md-nav__link">
         
   
@@ -637,27 +628,6 @@
   
   <span class="md-ellipsis">
     Doplňující funkce
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../git/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Přehled dalších geoinformačních technologií
   </span>
   
 
@@ -799,26 +769,38 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#obsah-hodiny" class="md-nav__link">
+  <a href="#format-csv-comma-separated-values" class="md-nav__link">
     <span class="md-ellipsis">
-      obsah hodiny:
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="obsah hodiny:">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#zasuvne-moduly-plugins" class="md-nav__link">
-    <span class="md-ellipsis">
-      zásuvné moduly - Plugins
+      Formát .csv (Comma Separated Values)
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#tabulkova-data-s-geometrii-xy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabulková data s geometrií (XY)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pripojeni-tabulky-k-existujicim-prostorovym-datum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Připojení tabulky k existujícím prostorovým datům
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ukol-k-procviceni" class="md-nav__link">
+    <span class="md-ellipsis">
+      Úkol k procvičení
+    </span>
+  </a>
   
 </li>
       
@@ -849,64 +831,76 @@
   
 
 
-<h1 id="5-prace-s-tabulkovymi-daty-souradnice-bodu-propojeni-dat">5. Práce s tabulkovými daty - souřadnice bodů, propojení dat</h1>
-<h4 id="data">data:</h4>
+<h1 id="tabulkova-data">Tabulková data</h1>
+<h2 id="data">data:</h2>
 <ul>
-<li>přiložené tabulky</li>
-<li><code>stromy_wgs.csv</code> - fiktivní cvičná datová sada</li>
-<li><code>ndop_lepidoptera.csv</code> - předzpracovaná datová sada získaná z NDOP - <a href="https://portal.nature.cz/nd/">Nálezová databáze AOPK</a>   - pro vyhledávání a stažení dat je nutná registrace, potom je možné stáhnout data na webové stránce mebo přímo v QGIS pomocí zasuvného modulu NDOP Downloader</li>
-<li><code>csu_DEM01.csv</code> - předzpracovaná datová sada získanáz ČSU - <a href="https://vdb.czso.cz/vdbvo2/faces/cs/index.jsf?page=statistiky&amp;katalog=33155#katalog=33156">Veřejná databáze - Český statistický úřad</a></li>
+<li><code>ndop_rys_vlk.csv</code> - data exportovaná z NDOP - <a href="https://portal.nature.cz/nd/">Nálezová databáze AOPK</a>- pro vyhledávání a stažení dat je nutná registrace, potom je možné stáhnout data na webové stránce mebo přímo v QGIS pomocí zasuvného modulu NDOP Downloader</li>
+<li>
+<p><code>observations-638235.csv</code>  - data exportovaná z iNaturalist - <a href="https://www.inaturalist.org/">iNaturalist.org</a> - pro vyhledávání a stažení dat je nutná registrace, potom je možná stáhnout data přímo z webové stránky v možnostech filtrování výskytů</p>
+</li>
+<li>
+<p><code>csu_DEM01.csv</code> - předzpracovaná datová sada získanáz ČSU - <a href="https://vdb.czso.cz/vdbvo2/faces/cs/index.jsf?page=statistiky&amp;katalog=33155#katalog=33156">Veřejná databáze - Český statistický úřad</a></p>
+</li>
 <li>ČÚZK (<a href="https://geoportal.cuzk.cz/(S(0c4pelr2yzdzis33tse4fyxn))/Default.aspx?lng=CZ&amp;mode=TextMeta&amp;side=dsady_RUIAN_vse&amp;metadataID=CZ-00025712-CUZK_SERIES-MD_RUIAN-STATY-SHP">RUIAN</a>) kraje (<code>VUSC_P.shp</code>)</li>
 </ul>
-<h4 id="obsah-hodiny">obsah hodiny:</h4>
+<h2 id="format-csv-comma-separated-values">Formát <code>.csv</code> (Comma Separated Values)</h2>
 <ul>
-<li>popis formátu <code>.csv</code></li>
-<li>tabulková data se souřadnicemi XY - zobrazení souřadnic v tabulce jako body v QGIS<ul>
+<li>primitivní textový formát pro tabulková data, kde jednotlivé hodnoty jsou odděleny čárkou, ale častý je i jiný oddělovač, např. středník nebo tabulátor</li>
+<li>neobsahuje žádné formátování, pouze čistá data v textovém souboru, je tedy jednodušše strojově čitelný</li>
+<li>tabulkové procesory (Excel, Calc) slouží pro zpracování a vizualizaci dat, kdy používají vlastní formáty (<code>.xlsx</code>, <code>.ods</code>,...), tyto programy zpravidla umožňují export i import z <code>.csv</code> formátu, který je vhodnější pro výměnu dat</li>
+<li>při načítání je nutné správně nastavit oddělovač, kódování znaků (<code>UTF-8</code>, <code>Windows-1250</code>,...) a případně další parametry (desetinná čárka/tečka, hlavička tabulky,...), to platí pro všechny programy</li>
+</ul>
+<h2 id="tabulkova-data-s-geometrii-xy">Tabulková data s geometrií (XY)</h2>
+<ul>
+<li>vysvětlení zdroje dat NDOP a iNaturalist</li>
+<li>geometrie může být zapsanáa v tabulce různými způsoby, nejčastěji jako souřadnice bodů - X a Y (nebo zeměpisná šířka a délka), ale existuje i zápis pro ostatní typy  geometrie (linie, polygony) např. ve formátu <a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">WKT (Well-Known Text)</a></li>
+<li>zobrazení souřadnic v tabulce jako body v QGIS<ul>
 <li>načtení dat s odděleným textem <em>Add Delimited Text Layer</em></li>
-<li>zobrazili jsme soubor jako bodovou vrstvu</li>
+<li>data NDOP - zveřejněná data výskytu vlka a rysa (EPSG:5514) - <code>ndop_rys_vlk.csv</code></li>
+<li>inaturalist data ve WGS84 (EPSG:4326) - <code>observations-638235.csv</code></li>
 <li>problematika chybného nastavení souřadnicového systému dat<ul>
-<li>nastavení souřadnicového systému (CRS) pokud se nahrává vrstva a nerozpozná se CRS</li>
-</ul>
-</li>
-<li>fiktivní data ve WGS84 (EPSG:4326) - <code>stromy_wgs.csv</code><ul>
-<li>načtení dat s nastavení chybného CRS a následná oprava</li>
-</ul>
-</li>
-<li>data NDOP - motýly CHKO Poodří a CHKO Beskydy S-JTSK (EPSG:5514) - <code>lepidoptera_besk_pood.csv</code><ul>
-<li>volitelné stylování</li>
-<li>vysvětlení zdroje dat NDOP</li>
+<li>načtení dat s nastavení chybného CRS a následná oprava ve vlastnostech vrstvy</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>připojení tabulky k atributové tabulce polygonové vrstvy (data ČSÚ- počty obyvatel, a data ČÚZK - RUIAN -kraje) - <code>csu_DEM01.csv</code><ul>
+</ul>
+<h2 id="pripojeni-tabulky-k-existujicim-prostorovym-datum">Připojení tabulky k existujícím prostorovým datům</h2>
+<ul>
 <li>popis datového zdroje ČSÚ</li>
-<li>práce s předpřipravenou tabulkou (originál lze získat zde: https://vdb.czso.cz/vdbvo2/faces/cs/index.jsf?page=statistiky&amp;katalog=33155#katalog=33156)</li>
-<li>připojení předzpracované tabulky ČSÚ k tabulce polygonů krajů na základě společného klíče (identifikátoru) v našem případě název kraje<ul>
-<li>volitelné stylování</li>
+<li>práce s předpřipravenou tabulkou</li>
+<li>
+<p>připojení předzpracované tabulky ČSÚ k tabulce polygonů krajů na základě společného klíče (identifikátoru) v našem případě název kraje</p>
+</li>
+<li>
+<p>RUIAN kraje - <code>csu_DEM01.csv</code></p>
+<ul>
 <li>seznámení se s s typem dat (long vs. wide data) a s principem tvorby kartogramu (relativní hodnoty)</li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<h5 id="zasuvne-moduly-plugins">zásuvné moduly - Plugins</h5>
+<!-- ## zásuvné moduly - Plugins
+- ve zbytku hodiny jsme si ukázali princip, instalaci a použití zásuvných modulů - pluginů v QGIS
+  - instalace v menu *Plugins -> Manage and Install Plugins ...*
+  - group stats ? -->
+
+<h2 id="ukol-k-procviceni">Úkol k procvičení</h2>
 <ul>
-<li>ve zbytku hodiny jsme si ukázali princip, instalaci a použití zásuvných modulů - pluginů v QGIS</li>
-<li>instalace v menu <em>Plugins -&gt; Manage and Install Plugins ...</em></li>
+<li>načtěte data - <code>ndop_lepidoptera.csv</code> - předzpracovaná datová sada získaná z NDOP - <a href="https://portal.nature.cz/nd/">Nálezová databáze AOPK</a> </li>
+<li>nastylujte body podle druhu, přidejte popisky s českým názvem druhu</li>
+<li>zjistěte kolik je záznamů v CHKO Poodří a kolik v CHKO Beskydy</li>
 </ul>
-<h4 id="zdroje">zdroje:</h4>
+<h2 id="zdroje">zdroje:</h2>
 <p>tabulky:</p>
 <ul>
-<li><a href="https://training.gismentors.eu/qgis-zacatecnik/vektorova_data/import_delim.html">GISMentors - QGIS začátečník - Import XY dat</a></li>
-<li><a href="https://training.gismentors.eu/qgis-zacatecnik/vektorova_data/join.html">GISMentors - QGIS začátečník - Připojení tabulky</a></li>
-<li><a href="https://docs.qgis.org/3.34/en/docs/user_manual/managing_data_source/opening_data.html#importing-a-delimited-text-file">QGIS Documentation - Importing a delimited text file</a></li>
+<li><a href="https://gismentors.github.io/qgis-zacatecnik/vektorova_data/import_delim.html">GISMentors - QGIS začátečník - Import XY dat</a></li>
+<li><a href="https://gismentors.github.io/qgis-zacatecnik/vektorova_data/join.html">GISMentors - QGIS začátečník - Připojení tabulky</a></li>
+<li><a href="https://docs.qgis.org/3.44/en/docs/user_manual/managing_data_source/opening_data.html#importing-a-delimited-text-file">QGIS Documentation - Importing a delimited text file</a></li>
 </ul>
-<p>pluginy:</p>
-<ul>
-<li><a href="https://training.gismentors.eu/qgis-zacatecnik/2.14/ruzne/qgis_pluginy.html#">GISMentors - QGIS začátečník - QGIS Pluginy</a></li>
-<li><a href="https://docs.qgis.org/3.34/en/docs/user_manual/plugins/plugins.html#qgis-plugins">QGIS Documentation - QGIS Plugins</a></li>
-</ul>
+<!-- pluginy:
+
+- [GISMentors - QGIS začátečník - QGIS Pluginy](https://gismentors.github.io/qgis-zacatecnik/2.14/ruzne/qgis_pluginy.html#)
+- [QGIS Documentation - QGIS Plugins](https://docs.qgis.org/3.44/en/docs/user_manual/plugins/plugins.html#qgis-plugins) -->
 
 
 
@@ -936,7 +930,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Oto Kaláb 2024
+      Oto Kaláb 2025
     </div>
   
   
