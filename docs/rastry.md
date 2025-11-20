@@ -2,7 +2,7 @@
 
 ## Data:
 DMT - digitální model terénu ČR - 100m - 
-- datová sada ke Gismentors  [QGIS školení pro začátečníky](http://training.gismentors.eu/geodata/qgis/data.zip)
+- datová sada ke Gismentors  [QGIS školení pro začátečníky](http://gismentors.github.io/geodata/qgis/data.zip)
 - jinak 5 m DMT - [DMR 4G ČÚZK GRID](https://geoportal.cuzk.cz/(S(t4galq2jkrjhwn3mlpqmyg4s))/Default.aspx?mode=TextMeta&side=vyskopis&metadataID=CZ-CUZK-EL&head_tab=sekce-02-gp&menu=304)
 - Bioclim - [WorldClim](https://www.worldclim.org/data/bioclim.html)
 

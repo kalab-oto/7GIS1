@@ -58,8 +58,8 @@ asdasdyxcyxc
             ```
 
 # Zdroje:
-- [GISMentors - QGIS začátečník - Tvorba nových vrstev a jejich editace](https://training.gismentors.eu/qgis-zacatecnik/vektorova_data/editace.html#kalkulator-poli)
+- [GISMentors - QGIS začátečník - Tvorba nových vrstev a jejich editace](https://gismentors.github.io/qgis-zacatecnik/vektorova_data/editace.html#kalkulator-poli)
 
-- [GISMentors - QGIS začátečník - Atributové a prostorové dotazování](https://training.gismentors.eu/qgis-zacatecnik/vektorova_data/dotazovani.html)
+- [GISMentors - QGIS začátečník - Atributové a prostorové dotazování](https://gismentors.github.io/qgis-zacatecnik/vektorova_data/dotazovani.html)
 
 - [QGIS Documentation - Expressions](https://docs.qgis.org/3.34/en/docs/user_manual/expressions/expression.html) 

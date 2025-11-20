@@ -33,5 +33,5 @@
 
 ## Zdroje
 
-- [https://gismentors.github.io/qgis-zacatecnik/intro/popis_rozhrani.html](https://training.gismentors.eu/qgis-zacatecnik/intro/popis_rozhrani.html)
+- [https://gismentors.github.io/qgis-zacatecnik/intro/popis_rozhrani.html](https://gismentors.github.io/qgis-zacatecnik/intro/popis_rozhrani.html)
 - [https://docs.qgis.org/testing/en/docs/user_manual/introduction/qgis_gui.html](https://docs.qgis.org/testing/en/docs/user_manual/introduction/qgis_gui.html)

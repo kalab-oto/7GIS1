@@ -23,6 +23,6 @@
 - problematika *multipart features* - multipolygony - jeden prvek (řádek v tabulce) může obsahovat více polygonů (např. CHKO Labské pískovce)
 
 ##### Zdroje
-- [GISMentors - QGIS začátečník - Tvorba nových vrstev a jejich editace](https://training.gismentors.eu/qgis-zacatecnik/vektorova_data/editace.html)
+- [GISMentors - QGIS začátečník - Tvorba nových vrstev a jejich editace](https://gismentors.github.io/qgis-zacatecnik/vektorova_data/editace.html)
 - [QGIS Documentation - Creating layers](https://docs.qgis.org/3.34/en/docs/user_manual/managing_data_source/create_layers.html)
 - [QGIS Documentation - Editing](https://docs.qgis.org/3.34/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html)
