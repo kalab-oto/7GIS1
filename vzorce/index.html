@@ -500,18 +500,60 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#uvod-do-vzorcu-expressions" class="md-nav__link">
+  <a href="#uvod-do-vzorcu-vyrazu-expressions" class="md-nav__link">
     <span class="md-ellipsis">
-      úvod do vzorců - expressions
+      úvod do vzorců (výrazů) - ε - expressions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="úvod do vzorců (výrazů) - ε - expressions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#editace-atributu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editace atributů
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#vyber-pomoci-vzorcu-atributove-dotazovani" class="md-nav__link">
     <span class="md-ellipsis">
-      výběr pomocí vzorců - atributové dotazování
+      Výběr pomocí vzorců - atributové dotazování
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kategorie-ve-vrstve-symbologie-podle-kategorii" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kategorie ve vrstvě - symbologie podle kategorií
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#popisky" class="md-nav__link">
+    <span class="md-ellipsis">
+      Popisky
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ukol-k-procviceni" class="md-nav__link">
+    <span class="md-ellipsis">
+      Úkol k procvičení
     </span>
   </a>
   
@@ -751,18 +793,60 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#uvod-do-vzorcu-expressions" class="md-nav__link">
+  <a href="#uvod-do-vzorcu-vyrazu-expressions" class="md-nav__link">
     <span class="md-ellipsis">
-      úvod do vzorců - expressions
+      úvod do vzorců (výrazů) - ε - expressions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="úvod do vzorců (výrazů) - ε - expressions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#editace-atributu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editace atributů
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#vyber-pomoci-vzorcu-atributove-dotazovani" class="md-nav__link">
     <span class="md-ellipsis">
-      výběr pomocí vzorců - atributové dotazování
+      Výběr pomocí vzorců - atributové dotazování
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kategorie-ve-vrstve-symbologie-podle-kategorii" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kategorie ve vrstvě - symbologie podle kategorií
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#popisky" class="md-nav__link">
+    <span class="md-ellipsis">
+      Popisky
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ukol-k-procviceni" class="md-nav__link">
+    <span class="md-ellipsis">
+      Úkol k procvičení
     </span>
   </a>
   
@@ -798,66 +882,110 @@
 <h1 id="vzorce-expressions">Vzorce - <em>expressions</em></h1>
 <h2 id="data">data</h2>
 <ul>
-<li><a href="https://data.nature.cz/ds/1">MZCHÚ</a></li>
+<li>ukázka datové sady <a href="https://www.dibavod.cz/index.php?id=27">DIBAVOD</a></li>
+<li>práce s vrstvou <em>D05 - hranice aktivní zóny záplavového území pro Q100</em></li>
 </ul>
-<h2 id="uvod-do-vzorcu-expressions">úvod do vzorců - expressions</h2>
+<h2 id="uvod-do-vzorcu-vyrazu-expressions">úvod do vzorců (výrazů) - ε - expressions</h2>
 <ul>
-<li>editace atributů v tabulce pomocí kalkulátoru polí - <em>Field calculator</em></li>
-<li>tvorba nového sloupce nebo aktualizace</li>
-<li>zápis vzorců </li>
-<li>funguje jako kalkulačka </li>
-<li>lze využívat funkce, které jsou dostupné v zobrazeném seznamu</li>
-<li>lze se odkazovat na konkrétní sloupce a jejich hodnoty</li>
-<li>zápis hodnot - syntaxe<ul>
-<li>čísla - <code>123</code></li>
-<li>text - <code>'les'</code></li>
-<li>sloupec - <code>sloupec</code> (nebo <code>"sloupec"</code>) - <code>"</code> je nutné použít, pokud název sloupce obsahuje mezery nebo speciální znaky</li>
-<li><code>$</code> - vrací výsledky na základě každého prvku zvlášť, např. <code>$area</code> - výpočet plochy prvku, <code>$perimeter</code> - výpočet obvodu prvku, <code>$length</code> - délka linie, <code>$id</code> - unikátní identifikátor prvku</li>
-<li><code>@</code> - proměnné - mohou být na různých úrovních, proměnné projektu, proměnnné symbologie, proměnné vrstvy, nebo i prvku (např. <code>@geometry</code>)</li>
-</ul>
-</li>
-<li>vzorce jsou využitelné na více místech v rámci QGIS<ul>
+<li>vzorce se v QGIS dají použít zaúčelem získání nových hodnot (např. výpočet rozlohy), nebo pro ověření podmínek (výběr na základě hodnot atributů)</li>
+<li>vzorce se dají využít v QGIS na více místech:<ul>
 <li>editace atributů - výpočet/aktualizace nových sloupců a hodnot</li>
 <li>výběr pomocí vzorců - atributové dotazování</li>
 <li>symbologie - psaní pravidel pro kategorie</li>
-<li>tvorba popisků - příklad spojování textu</li>
+<li>tvorba popisků - spojování textu</li>
 <li>ovládání parametrů - <em>Data defined override</em> </li>
 <li>a další (generování geometrií pro vlastní symboly, ovládání mapových výstupů, analýzy...)</li>
 </ul>
 </li>
-<li>příklady:</li>
+<li>vzorce fungují jako kalkulačka, lze mimo jiné používat matematické operátory, logické operátory, funkce, podmínky, atd.</li>
+<li>k jednoduchému psaní vzorců slouží okno editoru vzorců (<em>Expression string builder</em>) a označuje se znakem ε (řecké písmeno epsilon)</li>
+<li>lze využívat funkce, které jsou dostupné v zobrazeném seznamu</li>
+<li>v seznamu lze také procházet a poklikáním přidávat do vzorce jednotlivé atributy dané vrstvy nebo hodnoty v těchto atributech</li>
+<li>v právé části okna je vždy nápověda (popis a použití) k dané funkci</li>
+<li>ve spodní části je náhled výsledku vzorce pro jednotlivé prvky</li>
+<li>zákaldní syntax<ul>
+<li>čísla - <code>123</code></li>
+<li>text - <code>'les'</code></li>
+<li>sloupec - <code>sloupec</code> (nebo <code>"sloupec"</code>) - odkáže na daný sloupec, <code>"</code> je nutné použít, pokud název sloupce obsahuje mezery nebo speciální znaky</li>
+<li><code>@</code> - proměnné - mohou být na různých úrovních, proměnné projektu, proměnnné symbologie, proměnné vrstvy, nebo i prvku (např. <code>@geometry</code>)</li>
+<li><code>$</code> - vrací výsledky na základě každého prvku zvlášť, např. <code>$area</code> - výpočet plochy prvku, <code>$perimeter</code> - výpočet obvodu prvku, <code>$length</code> - délka linie<ul>
+<li>pouze pár funkcí</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="editace-atributu">Editace atributů</h3>
+<ul>
+<li>tvorbu a editaci atributů v atributové tabulce můžeme provádět pomocí kalkulátoru polí - <em>Field calculator</em> </li>
+<li>kalkulátor polí, umožní vytvořit nový sloupec (atribut) a do něj zaspat hodnoty na základě vzorce</li>
+<li>
+<p>lze zde také aktualizovat (přepsat) hodnoty v již existujícím sloupci, ale to lze provést i v samostatném panelu přímo v atributové tabulce bez použití kalkulátoru polí. Je možné aktualizovat buď všechny prvky, nebo jen ty vybrané</p>
+</li>
+<li>
+<p>příklady:</p>
+</li>
 <li>vytvoření nového sloupce s názvem <code>rozloha_ha</code> - výpočet rozlohy v hektarech <ul>
 <li><code>$area/10000</code></li>
 </ul>
 </li>
-<li>vytvoření popisku, který obsahuje název, kategorii a rozlohu - 
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>&#39;název: &#39; || NAZEV ||&#39;\n&#39;|| 
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>&#39;kategorie: &#39; || KAT ||&#39;\n&#39;|| 
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>&#39;rozloha: &#39; || rozloha_ha || &#39; ha&#39;
-</code></pre></div></li>
+<li>vytvoení nového sloupce s názvem <code>rozloha2</code> - vynásobíme existující sloupec nějakým číslem<ul>
+<li><code>rozloha_ha * 2</code></li>
 </ul>
-<h2 id="vyber-pomoci-vzorcu-atributove-dotazovani">výběr pomocí vzorců - atributové dotazování</h2>
+</li>
+</ul>
+<h3 id="vyber-pomoci-vzorcu-atributove-dotazovani">Výběr pomocí vzorců - atributové dotazování</h3>
 <ul>
 <li>analytická metoda pro výběr prvků dotazováním - výběr na základě dotazu na vlastnost vrstvy (výpočet, nebo testování atributu)</li>
-<li>pro základní atributové dotazování lze použít jednodochý formulář - <em>Select Features By Value...</em> (<code>F3</code>)<ul>
-<li>rychlé, vhodné pro jednoduché dotazy, používá pouze logiku <code>AND</code>, nelze použít další funkce, např. výpočet <code>$area</code> nebo <code>$perimeter</code></li>
-</ul>
-</li>
+<li>vzorec slouží jako podmínka pro výběr prvků - vzorec otestuje každý prvek, jestli splňuje podmínku, pokud ano výsledek je pravda (<code>1</code>) - dá se do výběru, pokud ne, výsledek je nepravda (<code>0</code>) - nedá se do výběru</li>
 <li>různé možnosti chování výběru - nový výběr, přidání do výběru, odebrání z výběru, vybrat ze stávajícího výběru ("podvýběr")</li>
-<li>použití vzorců pro výběr prvků - <em>Select By Expression...</em> (<code>Ctrl+F3</code>)</li>
-<li>v některých případech uživatelsky pomalejší, ale všestranné, lze kombinovat vzorce</li>
-<li>zadaný vzorec testuje každý prvek, jestli je výsledek pravda (<code>1</code>) nebo ne (<code>0</code>). Pokud je výsledek pravda, dá se prvek do výběru<ul>
-<li>příklady na vrstvě MZCHÚ</li>
-<li>z vrstvy vyber pouze přírodní památky <ul>
-<li><code>KAT ='PP'</code></li>
-</ul>
+<li>
+<p>použití vzorců pro výběr prvků - <em>Select By Expression...</em> (<code>Ctrl+F3</code>)</p>
 </li>
-<li>z vrstvy vyber jenom chráněná území s rozlohou menší než 1 km2 <ul>
+<li>
+<p>příklady</p>
+</li>
+<li>vyber záplavová území s rozlohou větší než 100 ha<ul>
 <li><code>$area &lt; 1000000</code></li>
 </ul>
 </li>
+<li>vyber záplavová území Ostravice<ul>
+<li><code>"NAZ_TOK" = 'Ostravice'</code></li>
 </ul>
 </li>
+<li>vyber záplavová území Ostravice a s rozlohou větší než 100 ha<ul>
+<li><code>"NAZ_TOK" = 'Ostravice' AND $area &gt; 1000000</code></li>
+</ul>
+</li>
+<li>vyber záplavová území Ostravice a Odry<ul>
+<li><code>"NAZ_TOK" = 'Ostravice' OR "NAZ_TOK" = 'Odra'</code></li>
+<li>nebo pomocí operátoru <code>IN</code></li>
+<li><code>"NAZ_TOK" IN ('Ostravice', 'Odra')</code>  </li>
+</ul>
+</li>
+<li>pro základní atributové dotazování lze použít i jednodochý formulář - <em>Select Features By Value...</em> (<code>F3</code>)</li>
+<li>rychlé, vhodné pro jednoduché dotazy, používá pouze logiku <code>AND</code>, nelze použít další funkce, např. výpočet <code>$area</code> nebo <code>$perimeter</code></li>
+<li>v některých případech může být tedy použití vzorců pro výběr prvků  pomalejší, ale je všestranné - umožňuje psát složité dotazy</li>
+</ul>
+<h3 id="kategorie-ve-vrstve-symbologie-podle-kategorii">Kategorie ve vrstvě - symbologie podle kategorií</h3>
+<ul>
+<li>v symbologii vrstvy lze využít vzorce pro tvorbu kategorií</li>
+<li>podobně jako u výběru prvků, vzorec otestuje každý prvek, a na základě výsledku (hodnoty) se přiřadí kategorie <code>1</code> nebo <code>0</code></li>
+<li>např. <code>$area &lt; 1000000</code></li>
+</ul>
+<h3 id="popisky">Popisky</h3>
+<ul>
+<li>vytvoření popisku, který obsahuje název toku a jeho rozlohu 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>&#39;název: &#39; || NAZ_TOK ||&#39;\n&#39;|| 
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>&#39;rozloha: &#39; || rozloha_ha || &#39; ha&#39;
+</code></pre></div></li>
+<li><code>||</code> - operátor pro spojování textů</li>
+<li><code>\n</code> - nový řádek, u popisků lze zalomení textu nastavit pomocí zalomení na specifickém znaku nastaveném v možnostech popisků</li>
+</ul>
+<h2 id="ukol-k-procviceni">Úkol k procvičení</h2>
+<ul>
+<li>ve vrstvě MZCHÚ vyberete všechny přírodní památky (PP) z rozlohou větší než 200 ha </li>
+<li>ve vrstvě MZCHÚ vyberete všechny přírodní památky (PP) a přírodní rezervace (NPP)</li>
 </ul>
 <h2 id="zdroje">Zdroje:</h2>
 <ul>
@@ -868,7 +996,7 @@
 <p><a href="https://gismentors.github.io/qgis-zacatecnik/vektorova_data/dotazovani.html">GISMentors - QGIS začátečník - Atributové a prostorové dotazování</a></p>
 </li>
 <li>
-<p><a href="https://docs.qgis.org/3.34/en/docs/user_manual/expressions/expression.html">QGIS Documentation - Expressions</a> </p>
+<p><a href="https://docs.qgis.org/3.40/en/docs/user_manual/expressions/expression.html">QGIS Documentation - Expressions</a> </p>
 </li>
 </ul>
 
