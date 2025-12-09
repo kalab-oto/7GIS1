@@ -1,11 +1,19 @@
 # Zdroje
 
-Na této stránce najdete relevantní zdroje k samostudiu.
+## Data
+- ČÚZK
+- AOPK
+- DIBAVOD
 
-- [GISMentors - QGIS začátečník - Prostorové analýzy](https://gismentors.github.io/qgis-zacatecnik/vektorova_data/prostorove_analyzy.html)
 
-- [GISMentors - QGIS začátečník - Atributové a prostorové dotazování](https://gismentors.github.io/qgis-zacatecnik/vektorova_data/dotazovani.html)
 
-- [QGIS Documentation - Vector menu](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_gui.html#vector)
+## Samostudium
 
-- [QGIS Documentation - Select by Location](https://docs.qgis.org/3.34/en/docs/user_manual/processing_algs/qgis/vectorselection.html#qgisselectbylocation) 
+- [QGIS Documentation](https://docs.qgis.org/3.40/en/docs/user_manual)
+
+- [GISMentors - QGIS začátečník](https://gismentors.github.io/qgis-zacatecnik)
+
+- [GISMentors - QGIS pokročilý](https://gismentors.github.io/qgis-pokrocily)
+
+
+
