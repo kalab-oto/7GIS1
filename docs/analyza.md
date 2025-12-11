@@ -7,7 +7,7 @@
 
 ## Vybrané analýzy
 - všechny vybrané analýzy jsou dostupné v menu *Vektor -> Geoprocessing tools*, nebo v *Processing Toolbox*
--  lze spustit na všechny prvky ve vrstvě, nebo jen na ty vybrané
+- lze spustit na všechny prvky ve vrstvě, nebo jen na ty vybrané
 
 ### Prostorové dotazování - *Select by Location*
 - funkce výběru, která vybere prvky v jedné vrstvě na základě zvolené prostorové interkace s prvky v jiné vrstvě
@@ -29,19 +29,19 @@
 - buď všechny do jednoho prvku (*multipart feature*), nebo na základě zvoleného atributu (např. všechny dálnice do jednoho prvku)
 - ztratíme informaci z původní atributové tabulky, hodnoty se vezmou z prvního prvku
 - lze použít i po vytvoření obalové zóny, pokud jsme nezvolili možnost *Dissolve* při tvorbě bufferu
-- 
 
-### Překryvné operace - *Clip*, *Union*
-- analýza, která vytvoří novou vrstvu prvků na základě průniku dvou vrstev, týká se tak jak geometrie prvků, tak jejich atributů
+### Překryvné operace - *Oříznout/Clip*, *Sjednotit/Union*, *Průnik/Intersection*
+- analýza, která vytvoří novou vrstvu prvků na základě prostorovéhovo vztahu dvou nebo více vrstev
+- týká se jak geometrie prvků, tak jejich atributů
 - *Clip* - ořezání - výsledkem je vrstva, která obsahuje pouze průnik obou vrstev s atributy jen vstupní vrstvy
 - *Union* - sjednocení  - výsledkem je vrstva, která obsahuje průnik obou vrstev i s částmi které se neprotínají, atributy obou vrstev jsou zachované
-- domácí úkol: zkuste další časté překryvné operace jsou *Intersection* a *Difference*
-    - *Intersect* - průnik - výsledkem je vrstva, která obsahuje pouze průnik obou vrstev s atributy obou vrstev
-    - *Difference* - rozdíl - výsledkem je vrstva, která obsahuje prvky z první vrstvy, které se neprotínají s druhou vrstvou
+- *Intersect* - průnik - výsledkem je vrstva, která obsahuje pouze průnik obou vrstev s atributy obou vrstev
+- *Difference* - rozdíl - výsledkem je vrstva, která obsahuje prvky z první vrstvy, které se neprotínají s druhou vrstvou
 
 ## Úkol k procvičení
 - vyberte všechny NPR, které zasahují do Zlínského kraje
-- 
+- vypočítejte rozlohu všech CHKO na území MSK
+
 ## Zdroje
 
 - [GISMentors - QGIS začátečník - Prostorové analýzy](https://gismentors.github.io/qgis-zacatecnik/vektorova_data/prostorove_analyzy.html)
